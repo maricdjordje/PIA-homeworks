@@ -1,0 +1,116 @@
+body {
+    background-image:url('images/background.png');
+    <!-- background-repeat: no-repeat; -->
+    background-attachment: fixed;   <!-- ovo znaci da je uvek fiksno -->
+    /*background-size: 50%;*/
+    max-width: 55%;
+    
+    margin: auto;
+    
+}
+
+
+* h1{
+    text-align: center;
+    text-shadow: 5px 5px #999999;
+    font-family: "Georgia";
+    font-weight: bold;
+    padding:5px;
+    font-size: 24pt;
+    background: 
+}
+
+.MainBody_conteiner {
+    position: relative;
+    width: 55%;    
+    margin: auto;
+    border-width: 5px 5px 5px 5px;
+    border-style: solid;
+    background: #EEEEEE;
+    border-color: #999999;
+}
+
+.MainBody_conteiner_Top
+{
+    width: 70%;
+    height: 80px;
+    float:left;
+    position:relative;
+    margin-bottom: 1rem;
+}
+
+.MainBody_conteiner_TopBanner {
+    position:relative;
+    height:83px;
+    margin-bottom: 0px;
+    background-image: url("images/rbg.png");
+}
+
+.MainBody_conteiner_TopLeft_Picture {
+    position:relative;
+    top: -83px;
+    width:100px;
+    height:83px;
+    background-image: url("images/freshbig.png");
+}
+.box{
+    width: 70%;
+    
+}
+
+.percentage {
+    color: red;
+    position:relative;
+    text-align: center;
+    font-size:  50pt;
+    padding-top: 5px;
+    padding-left: 100px;
+    font-weight: bold;
+    font-family: "Time New Roman", serif;
+}
+
+.critic {
+    font-size: 12;
+    font-family: 'Time New Roman',serif;
+    width: 90%;    
+    margin: 1rem auto;
+}
+
+
+.quotebubble {
+    font-size: 12pt;
+    font-family: 'Times New Roman', serif;
+    border: 2px solid #cccccc;
+    border-radius: 12px;
+    padding: 1px;
+    margin:  auto;
+    width: 90%;
+    background-color: #ffffff;
+}
+
+.MainBody_conteiner_Right
+{    
+    background-color: #A2B964;
+    position:relative;
+    float:right;
+    top:-1477px;
+    right:0;
+    width: 30%;
+    height:1500px;
+}
+footer {
+    background-color: #A2B964;
+    padding: 0.5em;
+    text-align: center;
+    margin: 0px;
+    margin-top: 0px;
+}
+.RightText{
+    margin:  auto;
+    font-weight: bold;
+    text-align: left;    
+}
+
+.w3c{
+    padding-left: 600px;
+}
